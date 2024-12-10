@@ -7,7 +7,7 @@ enableInlineShortcodes: true
 footnoteReturnLinkContents: "^"
 
 paginate: 10 # articles per page
-relativeURLs: true
+relativeURLs: false
 canonifyURLs: true
 
 
@@ -29,8 +29,7 @@ params:
     imageUrl: "img/profile1.webp"
     imageWidth: 250
     imageHeight: 250
-    Content: |
-      Mi chiamo Andrea Giammanco, insegno informatica in un Liceo Scientifico.
+    Content: Mi chiamo Andrea Giammanco, insegno informatica in un Liceo Scientifico.
 
   socialIcons:
     - name: "Email"
