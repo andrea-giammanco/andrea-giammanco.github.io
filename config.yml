@@ -1,4 +1,4 @@
-baseURL: 'https://andrea-giammanco.github.io/'
+baseURL: "https://andrea-giammanco.github.io"
 languageCode: 'it-it'
 title: 'Computazioni'
 theme: 'PaperMod'
