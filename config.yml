@@ -63,3 +63,6 @@ menu:
     - name: "Categories"
       url: "/categories"
       weight: 5
+    - name: "Archives"
+      url: "/archives"
+      weight: 6
