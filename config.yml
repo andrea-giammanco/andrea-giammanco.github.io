@@ -1,0 +1,65 @@
+baseURL: 'https://andrea-giammanco.github.io/'
+languageCode: 'it-it'
+title: 'Computazioni'
+theme: 'PaperMod'
+
+enableInlineShortcodes: true
+footnoteReturnLinkContents: "^"
+
+paginate: 10 # articles per page
+
+params:
+  mode: "toggle" # color-mode → light, dark, toggle or auto
+  subtitle: "Appunti per non ammattire"
+  katex: true # enable MathJax support
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  hideSummary: false
+
+  profileMode:
+    enabled: true
+    title: "Computazioni"
+    subtitle: "Appunti per non ammattire"
+    imageUrl: "img/profile1.webp"
+    imageWidth: 250
+    imageHeight: 250
+    Content: |
+      Mi chiamo Andrea Giammanco, insegno informatica in un Liceo Scientifico.
+
+  socialIcons:
+    - name: "Email"
+      icon: "xda"
+      url: "mailto:andrea.giammanco@tutamail.com"
+    - name: "cv"
+      icon: "cv"
+      url: "cv.pdf"
+    - name: "GitHub"
+      icon: "github"
+      url: "https://github.com/andrea-giammanco"
+    - name: "GoogleScholar"
+      icon: "googlescholar"
+      url: "https://scholar.google.com/citations?user=dqeeD9oAAAAJ&hl=it"
+    - name: "Instagram"
+      icon: "instagram"
+      url: "https://instagram.com/giammandro"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Posts"
+      url: "/posts"
+      weight: 3
+    - name: "About"
+      url: "/about"
+      weight: 2
+    - name: "Tags"
+      url: "/tags"
+      weight: 4
+    - name: "Categories"
+      url: "/categories"
+      weight: 5
