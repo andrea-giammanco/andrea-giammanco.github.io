@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Computazioni</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>it-it</language>
+    <lastBuildDate>Mon, 16 Dec 2024 11:59:06 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lettere</title>
+      <link>http://localhost:1313/categories/lettere/</link>
+      <pubDate>Mon, 16 Dec 2024 11:59:06 +0100</pubDate>
+      <guid>http://localhost:1313/categories/lettere/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
