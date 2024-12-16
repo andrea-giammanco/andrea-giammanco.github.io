@@ -23,7 +23,7 @@ params:
   profileMode:
     enabled: true
     title: "Computazioni"
-    subtitle: "Mi chiamo Andrea Giammanco, insegno informatica in un Liceo Scientifico. Raccolgo qui alcuni appunti su scuola e dintorni."
+    subtitle: "Mi chiamo Andrea Giammanco, insegno informatica presso il Liceo Scientifico G. D'Alessandro di Bagheria. Raccolgo qui alcuni appunti su scuola e dintorni."
     imageUrl: "img/profile1.webp"
     imageWidth: 250
     imageHeight: 250
@@ -34,7 +34,7 @@ params:
       url: "mailto:andrea.giammanco@tutamail.com"
     - name: "cv"
       icon: "cv"
-      url: "cv.pdf"
+      url: "cv_giammanco_andrea.pdf"
     - name: "Linkedin"
       icon: "linkedin"
       url: "https://www.linkedin.com/in/andrea-giammanco/"
@@ -60,6 +60,13 @@ params:
 
   # for enchanced SEO
   env: production
+
+  assets:
+    favicon: "fav/favicon.ico"
+    favicon16x16: "fav/favicon-16x16.png"
+    favicon32x32: "fav/favicon-32x32.png"
+    apple_touch_icon: "fav/apple-touch-icon.png"
+    safari_pinned_tab: "fav/safari-pinned-tab.svg"
 
 menu:
   main:
